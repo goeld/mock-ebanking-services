@@ -5,9 +5,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AppHealthCheckController {
-    @GetMapping("/app/health")
+    @GetMapping("/mock/health")
     public String getVersion() {
         return "1.0";
+    }
+
+
+    @GetMapping("/")
+    public String index() {
+        return "Mock Portal is up";
     }
 
 }

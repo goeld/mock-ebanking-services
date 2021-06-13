@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: mock-services-deploy
+  name: mock-services-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mock-services-pod
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: mock-services-pod
+    spec:
+      containers:
+      - image: mock-services
+        name: mock-services-container
+        imagePullPolicy: Never
+        ports:
+          - name: liveness-port
+            containerPort: 8080
+            hostPort: 8090
+        volumeMounts:
+          - mountPath: /logs/
+            name: logs-volume
+        resources: {}
+        livenessProbe:
+          httpGet:
+            path: /mock/health
+            port: liveness-port
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /mock/health
+            port: liveness-port
+          initialDelaySeconds: 5
+          failureThreshold: 3
+          periodSeconds: 15
+      volumes:
+        - name: logs-volume
+          persistentVolumeClaim:
+            claimName: mock-services-pvc
+status: {}
