@@ -16,10 +16,10 @@ public class TransactionServiceImpl implements TransactionService{
     private TransactionDetailDao dao;
 
     @Override
-    public List<TransactionDetails> getTransactionsForCustomer(String acctIban, Integer txnYear, Integer txnMonth, Integer pageSize, Integer startPage){
+    public List<TransactionDetails> getAccountTransactions(String acctIban, Integer txnYear, Integer txnMonth, Integer pageSize, Integer startPage){
 
 
-        Map<String, List<TransactionDetails>> txnMap = dao.getTransactionsForCustomer();
+        Map<String, List<TransactionDetails>> txnMap = dao.getAccountTransactions();
         List<TransactionDetails> transactionDetails = txnMap.get(acctIban);
 
         transactionDetails.sort(Comparator.comparing(TransactionDetails::getValueDate));

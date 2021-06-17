@@ -14,10 +14,8 @@ public class TransactionController {
     @Autowired
     private TransactionService service;
 
-    @PostMapping("/txn/all/")
-    public List<TransactionDetails> getall(@RequestBody TransactionRequest t) {
-        return service.getTransactionsForCustomer(t.getAcctIban(), t.getTxnYear(), t.getTxnMonth(), t.getPageSize(), t.getStartPage());
+    @PostMapping("/txn/accountTransactions")
+    public List<TransactionDetails> getAccountTransactions(@RequestBody TransactionRequest t) {
+        return service.getAccountTransactions(t.getAcctIban(), t.getTxnYear(), t.getTxnMonth(), t.getPageSize(), t.getStartPage());
     }
-
-
 }

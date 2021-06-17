@@ -2,7 +2,7 @@ server:
   port: 8091
 
 ## SSL Certificate Details
-tomcat_ssl_enabled: true
+tomcat_ssl_enabled: false
 tomcat_key_store_path: classpath:certs/keystore.p12
 tomcat_key_store_pwd: changeit
 tomcat_key_store_type: PKCS12

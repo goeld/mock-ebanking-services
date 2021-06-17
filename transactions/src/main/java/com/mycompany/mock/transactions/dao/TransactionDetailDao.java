@@ -29,7 +29,7 @@ public class TransactionDetailDao {
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
-    public Map<String, List<TransactionDetails>> getTransactionsForCustomer() {
+    public Map<String, List<TransactionDetails>> getAccountTransactions() {
 
         if (!CollectionUtils.isEmpty(transactionDetailsMap)) {
             return transactionDetailsMap;
