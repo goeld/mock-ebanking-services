@@ -13,6 +13,7 @@ import lombok.Setter;
 public class CustomerDetails {
 
     private String customerId;
+    private String email;
 
     //Ommiting other details
 
