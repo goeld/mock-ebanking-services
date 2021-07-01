@@ -8,14 +8,14 @@
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of1",
-    "amount": "INR 75",
+    "amount": "SGD 75",
     "acctIban": "CH93-0000-0000-93451",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 1"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of2",
-    "amount": "INR 75",
+    "amount": "USD 75",
     "acctIban": "CH93-0000-0000-93452",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 2"
@@ -50,21 +50,21 @@
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of7",
-    "amount": "INR 75",
+    "amount": "USD 75",
     "acctIban": "CH93-0000-0000-93457",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 7"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of8",
-    "amount": "INR 75",
+    "amount": "SGD 75",
     "acctIban": "CH93-0000-0000-93458",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 8"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of9",
-    "amount": "INR 75",
+    "amount": "USD 75",
     "acctIban": "CH93-0000-0000-93459",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 9"
@@ -85,7 +85,7 @@
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of2",
-    "amount": "SGD 75-",
+    "amount": "USD 75-",
     "acctIban": "CH93-0000-0000-93452",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 2"
@@ -120,7 +120,7 @@
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of7",
-    "amount": "SGD 75-",
+    "amount": "USD 75-",
     "acctIban": "CH93-0000-0000-93457",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 7"
@@ -134,35 +134,35 @@
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of9",
-    "amount": "SGD 75-",
+    "amount": "USD 75-",
     "acctIban": "CH93-0000-0000-93459",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 9"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of0",
-    "amount": "UGD 65-",
+    "amount": "SGD 65-",
     "acctIban": "CH93-0000-0000-93450",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 0"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of1",
-    "amount": "UGD 65-",
+    "amount": "SGD 65-",
     "acctIban": "CH93-0000-0000-93451",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 1"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of2",
-    "amount": "UGD 65-",
+    "amount": "USD 65-",
     "acctIban": "CH93-0000-0000-93452",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 2"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of3",
-    "amount": "UGD 65-",
+    "amount": "SGD 65-",
     "acctIban": "CH93-0000-0000-93453",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 3"
@@ -295,35 +295,35 @@
 
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of5",
-    "amount": "UGD 65-",
+    "amount": "SGD 65-",
     "acctIban": "CH93-0000-0000-93455",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 5"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of6",
-    "amount": "UGD 65-",
+    "amount": "SGD 65-",
     "acctIban": "CH93-0000-0000-93456",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 6"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of7",
-    "amount": "UGD 65-",
+    "amount": "USD 65-",
     "acctIban": "CH93-0000-0000-93457",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 7"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of8",
-    "amount": "UGD 65-",
+    "amount": "SGD 65-",
     "acctIban": "CH93-0000-0000-93458",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 8"
   },
   {
     "transactionId": "89d3o179-blbc-465b-o9ee-e2d5f6of9",
-    "amount": "UGD 65-",
+    "amount": "USD 65-",
     "acctIban": "CH93-0000-0000-93459",
     "valueDate": "01-10-2020",
     "description": "Online payment CHF - 9"

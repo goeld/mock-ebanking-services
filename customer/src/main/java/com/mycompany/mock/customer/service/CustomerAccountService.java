@@ -24,14 +24,14 @@ public class CustomerAccountService {
         List<AccountDetails> cust1AccountList = new ArrayList<>();
         cust1AccountList.add(new AccountDetails("CH93-0000-0000-93454", customer1, "INR"));
         cust1AccountList.add(new AccountDetails("CH93-0000-0000-93451", customer1, "SGD"));
-        cust1AccountList.add(new AccountDetails("CH93-0000-0000-93452", customer1, "SGD"));
+        cust1AccountList.add(new AccountDetails("CH93-0000-0000-93452", customer1, "USD"));
         customerAccountMap.put(customer1, cust1AccountList);
 
 
         String customer2 = "P-0123456790";
         List<AccountDetails> cust2AccountList = new ArrayList<>();
         cust2AccountList.add(new AccountDetails("CH93-0000-0000-93459", "", "USD"));
-        cust2AccountList.add(new AccountDetails("CH93-0000-0000-93458", "", "USD"));
+        cust2AccountList.add(new AccountDetails("CH93-0000-0000-93458", "", "SGD"));
         customerAccountMap.put(customer2, cust2AccountList);
 
         String customer3 = "P-0123456791";
